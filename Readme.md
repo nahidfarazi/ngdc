@@ -6,7 +6,7 @@
 ```
 ##### use fo Database connection
 
-#### for postgres
+##### for postgres
 ```go
 // postgres
     package main
