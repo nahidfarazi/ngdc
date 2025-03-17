@@ -4,10 +4,11 @@
 ``` sh
     go get -u github.com/nahidfarazi/ngdc
 ```
-##### use
+##### use fo Database connection
 
 #### for postgres
 ```go
+// postgres
     package main
     import (
         "log"
