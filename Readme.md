@@ -4,7 +4,7 @@
 ``` sh
     go get -u github.com/nahidfarazi/ngdc
 ```
-##### use fo Database connection
+#### use fo Database connection
 
 ##### for postgres
 ```go
@@ -25,7 +25,7 @@
     db :=  ngdc.ConnectDB(dialector, &User{})
     }
 ```
-#### for mysql
+##### for mysql
 ```go
 // mysql
     package main
@@ -44,7 +44,7 @@
     db :=  ngdc.ConnectDB(dialector, &User{})
     }
 ```
-#### for tiDb
+##### for tiDb
 ```go
 // tiDB
     package main
@@ -63,7 +63,7 @@
     db :=  ngdc.ConnectDB(dialector, &User{})
     }
 ```
-#### for sqlite
+##### for sqlite
 ```go
 // sqlite
     package main
@@ -82,7 +82,7 @@
     db :=  ngdc.ConnectDB(dialector, &User{})
     }
 ```
-#### for sqlserver
+##### for sqlserver
 ```go
 // sqlserver
     package main
@@ -101,7 +101,7 @@
     db :=  ngdc.ConnectDB(dialector, &User{})
     }
 ```
-#### for clickhouse
+##### for clickhouse
 ```go
 // clickhouse
     package main
