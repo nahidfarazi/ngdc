@@ -1,4 +1,4 @@
-#
+# NGDC (Next-Gen Database Connector)
 
 ### Installation
 ``` sh
