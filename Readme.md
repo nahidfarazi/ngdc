@@ -21,11 +21,11 @@
     }
     func main (){
         dsn := os.Getenv("DB_URL")
-
-    db :=  ngdc.ConnectDB(postgres.Open(dsn) &User{})
+        db :=  ngdc.ConnectDB(postgres.Open(dsn) &User{})
     }
 ```
 
+## or
 
 ##### for postgres
 ```go
