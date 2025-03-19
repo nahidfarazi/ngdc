@@ -6,18 +6,19 @@ import (
 	"gorm.io/gorm"
 )
 
-/*
-	type User struct{
-		Name string
-	 	Age int
-	  }
+//	type User struct{
+//		Name string
+//	 	Age int
+//	  }
 
-dsn = database source name or yoi can call DB_url
+//dsn = database source name or yoi can call DB_url
 
-	dialector := postgres.Open(dsn)
-	db := gdc.ConnectDB(dialector, &User{}) {*gorm.DB}
-*/
-func ConnectDB(dialector gorm.Dialector, model ...interface{}) *gorm.DB {
+//	dialector := postgres.Open(dsn)
+//	db := gdc.ConnectDB(dialector, &User{}) {*gorm.DB}
+
+var db *gorm.DB
+
+func ConnectDB(dialector gorm.Dialector, model ...interface{}) (*gorm.DB, error) {
 
 	db, err := gorm.Open(dialector, &gorm.Config{})
 	if err != nil {
@@ -25,5 +26,5 @@ func ConnectDB(dialector gorm.Dialector, model ...interface{}) *gorm.DB {
 	}
 	log.Println("Database Connected")
 	db.AutoMigrate(model...)
-	return db
+	return db, err
 }
