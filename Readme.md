@@ -6,6 +6,27 @@
 ```
 #### use fo Database connection
 
+#### example
+```go
+       package main
+    import (
+        "log"
+        "gorm.io/gorm"
+        "gorm.io/driver/postgres"
+        "os"
+    )
+    type User struct{
+        Name string
+        Age string
+    }
+    func main (){
+        dsn := os.Getenv("DB_URL")
+
+    db :=  ngdc.ConnectDB(postgres.Open(dsn) &User{})
+    }
+```
+
+
 ##### for postgres
 ```go
 // postgres
