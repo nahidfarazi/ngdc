@@ -10,7 +10,6 @@
 ```go
        package main
     import (
-        "log"
         "gorm.io/gorm"
         "gorm.io/driver/postgres"
         "os"
@@ -32,7 +31,6 @@
 // postgres
     package main
     import (
-        "log"
         "gorm.io/gorm"
         "gorm.io/driver/postgres"
     )
@@ -51,7 +49,6 @@
 // mysql
     package main
     import (
-        "log"
         "gorm.io/gorm"
         "gorm.io/driver/mysql"
     )
@@ -70,7 +67,6 @@
 // tiDB
     package main
     import (
-        "log"
         "gorm.io/gorm"
         "gorm.io/driver/mysql"
     )
@@ -89,7 +85,6 @@
 // sqlite
     package main
     import (
-        "log"
         "gorm.io/gorm"
         "gorm.io/driver/sqlite"
     )
@@ -108,7 +103,6 @@
 // sqlserver
     package main
     import (
-        "log"
         "gorm.io/gorm"
         "gorm.io/driver/sqlserver"
     )
@@ -127,7 +121,6 @@
 // clickhouse
     package main
     import (
-        "log"
         "gorm.io/gorm"
         "gorm.io/driver/mysql"
     )
