@@ -8,7 +8,7 @@
 
 #### example
 ```go
-       package main
+package main
     import (
         "gorm.io/gorm"
         "gorm.io/driver/postgres"
@@ -29,7 +29,7 @@
 ##### for postgres
 ```go
 // postgres
-    package main
+package main
     import (
         "gorm.io/gorm"
         "gorm.io/driver/postgres"
@@ -47,7 +47,7 @@
 ##### for mysql
 ```go
 // mysql
-    package main
+package main
     import (
         "gorm.io/gorm"
         "gorm.io/driver/mysql"
@@ -65,7 +65,7 @@
 ##### for tiDb
 ```go
 // tiDB
-    package main
+package main
     import (
         "gorm.io/gorm"
         "gorm.io/driver/mysql"
@@ -83,7 +83,7 @@
 ##### for sqlite
 ```go
 // sqlite
-    package main
+package main
     import (
         "gorm.io/gorm"
         "gorm.io/driver/sqlite"
@@ -101,7 +101,7 @@
 ##### for sqlserver
 ```go
 // sqlserver
-    package main
+package main
     import (
         "gorm.io/gorm"
         "gorm.io/driver/sqlserver"
@@ -119,7 +119,7 @@
 ##### for clickhouse
 ```go
 // clickhouse
-    package main
+package main
     import (
         "gorm.io/gorm"
         "gorm.io/driver/mysql"
